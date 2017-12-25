@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBorder"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image_list"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/defult_logo"/>
+        <LinearLayout android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="15dip"
+                style="@style/TextViewStyle"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/domain_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Domain"
+                style="@style/TextViewStyle"
+                android:textSize="15dip"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

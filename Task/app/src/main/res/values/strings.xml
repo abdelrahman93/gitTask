@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Task</string>
+    <string name="company_name">Name</string>
+    <string name="company_domain">Domain</string>
+
+
 </resources>

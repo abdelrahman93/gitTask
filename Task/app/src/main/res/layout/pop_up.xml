@@ -1,48 +1,50 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context=".fragment.QuickSearch">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <SearchView
-            android:id="@+id/search"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        </SearchView>
-
         <ImageView
-            android:id="@+id/company_logo"
+            android:id="@+id/pop_company_logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="60dp"
             android:src="@drawable/defult_logo" />
 
         <TextView
-            android:id="@+id/company_name"
+            android:id="@+id/pop_company_name"
             style="@style/TextViewStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="10dp"
             android:text="@string/company_name"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/company_domain"
+            android:id="@+id/pop_company_domain"
             style="@style/TextViewStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:text="@string/company_domain" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Select"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/round_button"
+            android:id="@+id/pop_btn"
+            />
+
 
     </LinearLayout>
 

@@ -1,4 +1,4 @@
-package com.example.asherif.task;
+package com.example.asherif.task.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by A.Sherif on 23-Dec-17.
  */
-class ViewPagerAdapter extends FragmentPagerAdapter {
+public class ViewPagerAdapter extends FragmentPagerAdapter {
     private final List<Fragment> mFragmentList = new ArrayList<>();
     private final List<String> mFragmentTitleList = new ArrayList<>();
 

@@ -1,4 +1,4 @@
-package com.example.asherif.task; /**
+package com.example.asherif.task.adapter; /**
  * Created by A.Sherif on 23-Dec-17.
  */
 

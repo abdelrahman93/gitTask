@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.asherif.task.Main2Activity">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/defult_logo" />
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wall 1"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="center"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height of wall"
+                />
+
+            <EditText
+                android:id="@+id/h_wall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number|numberDecimal"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Width of wall"
+                />
+
+            <EditText
+                android:id="@+id/w_wall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number|numberDecimal"
+                android:textAlignment="center" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/thickness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thickness of wall"
+                />
+
+            <EditText
+                android:id="@+id/thickness_wall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number|numberDecimal"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of walls"
+                />
+
+            <EditText
+                android:id="@+id/n_wall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number|numberDecimal"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Percentage of losses"
+                />
+
+            <EditText
+                android:id="@+id/losses"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number|numberDecimal"
+                android:textAlignment="center" />
+        </TableRow>
+
+
+    </TableLayout>
+    <Button
+        android:id="@+id/new_wall"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/background_light"
+        android:text="+Add new wall inputs"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+
+
+
+</LinearLayout>
+
